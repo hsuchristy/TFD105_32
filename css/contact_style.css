@@ -1,0 +1,58 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.top{
+    height: 380px;
+    background-image: url(/img/artistic/at5.png);
+    background-size: cover;
+}
+
+section{
+    margin: 0 auto;
+    width: 1200px;
+    /* border: aliceblue 1px solid; */
+    padding: 100px;
+    display: flex
+}
+
+h2{
+    padding: 20px 0px 10px 0px;
+    font-size: 36px;
+    color: #fff;
+    width: 375px;
+    display: block;
+    border-bottom: aliceblue 1px solid;
+}
+
+h3{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+.info{
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 3;
+}
+
+.map{
+    height: 425px;
+    padding-left: 155px;
+}
+
+.icon{
+    height: 45px;
+    padding-top: 15px;
+}

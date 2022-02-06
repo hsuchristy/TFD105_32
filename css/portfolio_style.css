@@ -1,0 +1,52 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+    color: #fff;
+    font-size: 36px;
+}
+
+section{
+        /* border: solid; */
+    padding: 100px 30px 100px 30px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+
+
+.artistic{
+    margin: 35px;
+    padding-top: 150px;
+    width: 315px;
+    height: 315px;
+    background-image: url(/img/p1.png);
+}
+
+.wedding{
+    margin: 35px;
+    padding-top: 150px;
+    width: 315px;
+    height: 315px;
+    background-image: url(/img/p2.png);
+}
+
+.aerial{
+    margin: 35px;
+    padding-top: 150px;
+    width: 315px;
+    height: 315px;
+    background-image: url(/img/p3.png);
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

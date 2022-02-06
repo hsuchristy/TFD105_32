@@ -1,0 +1,136 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Readex Pro', sans-serif;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.breadcrumbs{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 10px;
+    padding-top: 30px;
+    padding-left: 100px;
+
+}
+
+.b1{
+    color: coral;
+}
+
+.S1{
+    padding: 50px 100px 0px 100px;
+}
+
+.S2{
+    padding: 100px;
+}
+
+section{
+    margin: 0 auto;
+    width: 1200px;
+    /* border: aliceblue 1px solid; */
+    display: flex
+}
+
+/* 左方文字欄位 */
+
+.left{
+    width: 350px;
+    padding-right: 30px;
+}
+
+h2{
+    font-size: 32px;
+    padding: 40px 0; 
+
+}
+
+h3{
+    font-size: 14px;
+    padding-bottom: 40px;
+    line-height: 1.3;
+}
+
+h4{
+    font-size: 14px;
+    border-bottom: 0.2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.hr1{
+    padding: 15px 0;
+    border-bottom: 0.2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.hr2{
+    padding: 15px 0;
+    border-bottom: 0.2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.hr3{
+    padding: 15px 0;
+    border-bottom: 0.2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.book{
+    font-size: 12px;
+    display: block;
+    border: #fff 0.2px solid;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    margin: 20px 0px;
+    float:right;
+}
+
+
+.book:hover{
+    color: coral;
+    border: coral 0.5px solid;
+}
+
+/* 右方圖片欄位 */
+
+.right{
+    width: 500px;
+    padding-left: 50px;
+    
+}
+
+.pic1{
+    width: 600px;
+}
+
+.pic2{
+    width: 100px;
+    margin-left: 10px;
+
+}
+.spic{
+    width: 600px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center; 
+    
+}

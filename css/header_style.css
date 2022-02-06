@@ -1,0 +1,46 @@
+@import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgba(0%,0%,0%,0.7);
+
+    font-family: Readex Pro;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+}
+
+
+.logo{
+    width: 230px;
+    margin-right: auto;
+}
+
+
+nav{
+    color: #fff;
+    font-size: 16px;
+}
+
+
+nav li{
+    display: inline-block;
+    width: 150px; 
+}
+
+nav li a{
+    text-align: center;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: coral;
+}
