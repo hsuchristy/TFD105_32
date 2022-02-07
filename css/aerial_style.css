@@ -30,7 +30,7 @@ a{
 }
 
 .b2{
-    color: coral;
+    color: #ff7f50;
 }
 
 .silde{
@@ -45,9 +45,8 @@ a{
     padding-left:30px ;
 }
 
-.arrow{
-    width: 1200px;
-    margin-left: 540px;
+.arroe{
+    
 }
 
 .icon{
@@ -106,7 +105,7 @@ a{
 h3{
     font-size: 72px;
     position: absolute;
-    top:1370px;
+    top:1320px;
     right:50px;
     text-shadow: 0.1em 0.1em 0.05em #333
 }
@@ -114,7 +113,7 @@ h3{
 h4{
     font-size: 72px;
     position: absolute;
-    top: 2070px;
+    top: 2020px;
     right: 820px;
     text-shadow: 0.1em 0.1em 0.05em #333
 }
