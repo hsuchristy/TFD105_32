@@ -12,7 +12,7 @@ body{
 
 .top{
     height: 600px;
-    background-image: url(./img/home/h1.png);
+    background-image: url(../img/home/h1.png);
     background-size: cover;
 }
 

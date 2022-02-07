@@ -28,7 +28,7 @@ section{
     padding-top: 150px;
     width: 315px;
     height: 315px;
-    background-image: url(./img/p1.png);
+    background-image: url(../img/p1.png);
 }
 
 .wedding{
@@ -36,7 +36,7 @@ section{
     padding-top: 150px;
     width: 315px;
     height: 315px;
-    background-image: url(./img/p2.png);
+    background-image: url(../img/p2.png);
 }
 
 .aerial{
@@ -44,7 +44,7 @@ section{
     padding-top: 150px;
     width: 315px;
     height: 315px;
-    background-image: url(./img/p3.png);
+    background-image: url(../img/p3.png);
 }
 
 a{
