@@ -40,24 +40,74 @@ a{
 }
 
 .city{
+    /* border: #fff 1px solid; */
+    margin-top: 100px;
+}
+
+.fpic{
     width: 1200px;
     height: 600px;
-    border: #fff 1px solid;
-    margin: 50px auto;
     display: flex;
+    margin: 0 auto;
 
+}
+
+
+.city li{
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+}
+
+.city .fpic1{
+    background-image: url(../img/aerial/al7.png);
+    flex-grow: 1;
+
+}
+.city .fpic2{
+    background-image: url(../img/aerial/al3.png);
+    flex-grow: 1;
+
+}
+
+.fpic1:hover{
+    flex-grow: 5;
+}
+
+.fpic2:hover{
+    flex-grow: 5;
 }
 
 .sea{
     width: 1200px;
     height: 600px;
-    border: #fff 1px solid;
-    margin: 50px auto;
+    /* border: #fff 1px solid; */
+    margin: 100px auto;
+    overflow:hidden
+}
 
+h3{
+    font-size: 72px;
+    position: absolute;
+    top:1370px;
+    right:50px;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+h4{
+    font-size: 72px;
+    position: absolute;
+    top: 2070px;
+    right: 820px;
+    text-shadow: 0.1em 0.1em 0.05em #333
+}
+
+.spic{ 
+    width: 1200px;
+    transform:scale(2,2);transition: all 1s ease-out;
 
 }
 
-.pic{ 
-    width: 1200px;
-
+.spic:hover{
+    transform:scale(1.2,1.2);
 }

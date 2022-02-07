@@ -50,7 +50,12 @@ section{
     text-shadow: 0.1em 0.1em 0.05em #333
 }
 
-a{
+.in{
     text-decoration: none;
     color: #fff;
+   
+}
+
+.in:hover{
+    color: coral;
 }
