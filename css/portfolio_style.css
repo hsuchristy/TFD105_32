@@ -29,6 +29,7 @@ section{
     width: 315px;
     height: 315px;
     background-image: url(../img/p1.png);
+    text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .wedding{
@@ -37,6 +38,7 @@ section{
     width: 315px;
     height: 315px;
     background-image: url(../img/p2.png);
+    text-shadow: 0.1em 0.1em 0.05em #333
 }
 
 .aerial{
@@ -45,6 +47,7 @@ section{
     width: 315px;
     height: 315px;
     background-image: url(../img/p3.png);
+    text-shadow: 0.1em 0.1em 0.05em #333
 }
 
 a{
