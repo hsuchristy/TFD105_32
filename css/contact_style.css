@@ -61,5 +61,51 @@ h3{
 /* 輸入框 */
 
 .input{
+    
     border: #fff 1px solid;
+    margin: 0 auto;
+    width: 800px;
+    height: 580px;
+    padding:50px;
+    margin-bottom: 100px;
+    
+}
+
+h4{
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.textbox{
+    padding: 20px 100px 50px 100px;
+}
+
+.text{
+    border: #2c2c2c;
+    border-bottom: 1px solid #fff;
+    background-color: #2c2c2c;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    width: 500px;
+    padding: 15px;
+}
+
+.send{
+    border: #fff 1px solid;
+    background-color: #2c2c2c;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    width: 100px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.send:hover{
+    color: coral;
+    border: coral 0.5px solid;
 }
