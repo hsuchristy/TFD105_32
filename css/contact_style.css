@@ -8,7 +8,10 @@
 body{
     background-color: #2c2c2c;
     font-family: 'Readex Pro', sans-serif;
+    color: #fff;
 }
+
+/* 資訊 */
 
 .top{
     height: 380px;
@@ -27,21 +30,18 @@ section{
 h2{
     padding: 20px 0px 10px 0px;
     font-size: 36px;
-    color: #fff;
     width: 375px;
     display: block;
     border-bottom: aliceblue 1px solid;
 }
 
 h3{
-    color: #fff;
     display: block;
     font-size: 16px;
     padding-top: 10px;
 }
 
 .info{
-    color: #fff;
     display: block;
     font-size: 16px;
     padding-top: 20px;
@@ -56,4 +56,10 @@ h3{
 .icon{
     height: 45px;
     padding-top: 15px;
+}
+
+/* 輸入框 */
+
+.input{
+    border: #fff 1px solid;
 }
