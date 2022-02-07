@@ -30,6 +30,7 @@ section{
     height: 315px;
     background-image: url(../img/p1.png);
     text-shadow: 0.1em 0.1em 0.05em #333;
+
 }
 
 .wedding{
@@ -53,9 +54,11 @@ section{
 .in{
     text-decoration: none;
     color: #fff;
+    transition: all 0.5s ease-out;
    
 }
 
 .in:hover{
     color: coral;
+
 }
