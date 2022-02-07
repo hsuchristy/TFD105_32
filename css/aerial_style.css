@@ -34,10 +34,27 @@ a{
 }
 
 .silde{
-    height: 600px;
-    border: #fff 1px solid;
+    height: 500px;
+    /* border: #fff 1px solid; */
     margin: 30px auto;
+    display: flex;
+    /* overflow: hidden; */
 }
+
+.bpic{
+    padding-left:30px ;
+}
+
+.arrow{
+    width: 1200px;
+    margin-left: 540px;
+}
+
+.icon{
+    width: 80px;
+    padding-left: 10px;
+}
+
 
 .city{
     /* border: #fff 1px solid; */
