@@ -1,0 +1,68 @@
+<div class="carousel">
+    <button class="carousel_button carousel_button--left">
+      <img src="./img/left.svg" alt="">
+    </button>
+      <img src="" alt="">
+    <div class="carousel_track-container">
+      <ul class="carousel_track">
+        <li class="carousel_slide">
+          <img class="carousel_img" src="./img/studio/1/s11.jpeg" alt="">
+        </li>
+        <li class="carousel_slide">
+          <img class="carousel_img" src="./img/studio/1/s12.jpeg" alt="">
+        </li>
+        <li class="carousel_slide">
+          <img class="carousel_img" src="./img/studio/1/s13.jpeg" alt="">
+        </li>
+        <li class="carousel_slide">
+          <img class="carousel_img" src="./img/studio/1/s14.jpeg" alt="">
+        </li>
+      </ul>
+    </div>
+    <button class="carousel_button carousel_button--right">
+      <img src="./img/right.svg" alt="">
+    </button>
+
+    <div class="carousel_nav">
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+      
+    </div>
+  </div>
+
+
+
+
+  .carousel{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.carousel_img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel_track-container{
+    background-color: #fff
+    height: 100%;
+    position: relative;
+     
+}
+
+.carousel_track{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.carousel_slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+}
