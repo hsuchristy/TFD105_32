@@ -11,6 +11,9 @@ body{
     color: #fff;
 }
 
+
+
+
 a{
     text-decoration: none;
     color: #fff;
@@ -28,4 +31,33 @@ a{
 
 .b2{
     color: coral;
+}
+
+.silde{
+    height: 600px;
+    border: #fff 1px solid;
+    margin: 30px auto;
+}
+
+.city{
+    width: 1200px;
+    height: 600px;
+    border: #fff 1px solid;
+    margin: 50px auto;
+    display: flex;
+
+}
+
+.sea{
+    width: 1200px;
+    height: 600px;
+    border: #fff 1px solid;
+    margin: 50px auto;
+
+
+}
+
+.pic{ 
+    width: 1200px;
+
 }
