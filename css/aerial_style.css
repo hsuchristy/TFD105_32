@@ -120,7 +120,12 @@ h3{
     position: absolute;
     top: 1270px;
     right:50px;
-    text-shadow: 0.1em 0.1em 0.05em #333
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    /* position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    } */
 }
 
 h4{
@@ -128,7 +133,7 @@ h4{
     position: absolute;
     top: 1970px;
     right: 720px;
-    text-shadow: 0.1em 0.1em 0.05em #333
+    text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .spic{ 
