@@ -98,29 +98,32 @@ a{
 
 }
 
-ul{
+.g1{
     display: flex;
 }
 
-li{
-    width: 300px;
-    height: 300px;
-}
 
 .gp{
     width: 300px;
     height: 300px;
     filter: grayscale(100%);
+    transition: all 1s ease-out;
     
 }
 
 .gp:hover{
     filter: grayscale(0%);
 
+
 }
 
 .wpic1{
+    width: 300px;
+    height: 300px;
     text-align: center;
     padding-top: 140px;
 }
 
+.wpic1:hover{
+    color: coral;
+}
