@@ -80,8 +80,9 @@ a{
 .word{
     font-size: 18px;
     width: 400px;
-    padding-top: 255px;
+    padding-top: 230px;
     padding-left: 80px;
+    line-height: 1.6;
     text-align:justify
 
 }
