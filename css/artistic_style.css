@@ -25,7 +25,7 @@ a{
     font-size: 10px;
     padding-top: 30px;
     padding-left: 100px;
-
+    margin-bottom: 30px;
 }
 
 .b2{
@@ -36,7 +36,7 @@ a{
     width: 1200px;
     height: 500px;
     /* border: #fff 1px solid; */
-    margin: 30px auto;
+    margin: 0 auto;
     display: flex;
     overflow: hidden;
 }
@@ -45,26 +45,36 @@ a{
     padding-left:30px ;
 }
 
+
 .arrow{
     width: 1200px;
-    padding-left: 520px;
+    margin: 0 auto;
 }
 
 .icon{
+    padding-left: 460px;
+}
+
+.icon1{
     width: 80px;
-    margin-left: 30px;
+    margin: 30px;
+
+
+}
+.icon2{
+    width: 80px;
+    margin: 30px;
 }
 
 .section{
     width: 1200px;
-    
 }
 
 .pic1{
     height: 800px;
     width: 1200px;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 40px;
     display: flex;
 
 }

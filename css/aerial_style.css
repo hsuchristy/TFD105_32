@@ -25,8 +25,9 @@ a{
     font-size: 10px;
     padding-top: 30px;
     padding-left: 100px;
-
+    margin-bottom: 30px;
 }
+
 
 .b2{
     color: #ff7f50;
@@ -36,7 +37,7 @@ a{
     width: 1200px;
     height: 500px;
     /* border: #fff 1px solid; */
-    margin: 30px auto;
+    margin: 0 auto;
     display: flex;
     overflow: hidden;
 }
@@ -47,18 +48,29 @@ a{
 
 .arrow{
     width: 1200px;
-    padding-left: 520px;
+    margin: 0 auto;
 }
 
 .icon{
-    width: 80px;
-    margin-left: 30px;
+    padding-left: 460px;
 }
+
+.icon1{
+    width: 80px;
+    margin: 30px;
+
+
+}
+.icon2{
+    width: 80px;
+    margin: 30px;
+}
+
 
 
 .city{
     /* border: #fff 1px solid; */
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .fpic{
@@ -104,18 +116,18 @@ a{
 }
 
 h3{
-    font-size: 72px;
+    font-size: 92px;
     position: absolute;
-    top:1320px;
+    top: 1270px;
     right:50px;
     text-shadow: 0.1em 0.1em 0.05em #333
 }
 
 h4{
-    font-size: 72px;
+    font-size: 92px;
     position: absolute;
-    top: 2020px;
-    right: 820px;
+    top: 1970px;
+    right: 720px;
     text-shadow: 0.1em 0.1em 0.05em #333
 }
 
