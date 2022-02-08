@@ -59,16 +59,13 @@ a{
 
 .pic1{
     height: 600px;
-    width: 1200px;
-    margin: 0 auto;
+    /* width: 1200px; */
     padding-top: 100px;
+    text-align:center
 
 }
 
 .img1{
-
-    width: 1200px;
-    margin: 0 auto;
     opacity:0.1;
 }
 
