@@ -126,8 +126,8 @@ h3:hover{
 }
 
 
-..gpic1:hover{
-    flex-grow: 2;
+.gpic1:hover{
+    flex-grow: 1.5;
 }
 
 .gpic2:hover{
@@ -135,5 +135,5 @@ h3:hover{
 }
 
 .gpic3:hover{
-    flex-grow: 2;
+    flex-grow: 1.5;
 }
