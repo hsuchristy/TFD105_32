@@ -86,7 +86,8 @@ a{
 
 }
 
-.allpic{    
+.allpic{
+    padding-top: 30px;
     display: flex;
 
 }
@@ -107,14 +108,12 @@ a{
     width: 300px;
     height: 300px;
     filter: grayscale(100%);
-    transition: all 1s ease-out;
+    transition: 1s;
     
 }
 
 .gp:hover{
     filter: grayscale(0%);
-
-
 }
 
 .wpic1{
@@ -122,8 +121,11 @@ a{
     height: 300px;
     text-align: center;
     padding-top: 140px;
+    transform:scale(1,1);
+    transition: 1s;
 }
 
 .wpic1:hover{
     color: coral;
+    transform:scale(1.2,1.2);
 }
