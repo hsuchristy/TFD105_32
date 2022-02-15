@@ -71,6 +71,7 @@ a{
 .city{
     /* border: #fff 1px solid; */
     margin-top: 50px;
+    
 }
 
 .fpic{
@@ -96,7 +97,6 @@ a{
 .city .fpic2{
     background-image: url(../img/aerial/al3.png);
     flex-grow: 1;
-
 }
 
 .fpic1:hover{
