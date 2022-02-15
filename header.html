@@ -1,21 +1,3 @@
-<!-- 選單 導航列 -->
-<div>
-    <header>
-            <img class="logo" src="./img/Future Photography Logo.png" alt="#" onclick="location.href='./index.html'">
-        
-            <nav>
-
-                <ul>
-                    <li><a href="./index.html">HOME</a></li>
-                    <li><a href="./about.html">ABOUT</a></li>
-                    <li><a href="./portfolio.html">PROTFOLIO</a></li>
-                    <li><a href="./studio.html">STUDIO</a></li>
-                    <li><a href="./contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
-    </header>
-</div>
-
 <style>
     @import url('reset.css');
     @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
@@ -35,18 +17,16 @@
         height: 80px;
     }
 
-
     .logo{
         width: 230px;
         margin-right: auto;
+        cursor: pointer;
     }
-
 
     nav{
         color: #fff;
         font-size: 16px;
     }
-
 
     nav li{
         display: inline-block;
@@ -64,3 +44,31 @@
         color: coral;
     }
 </style>
+
+
+<!-- 選單 導航列 -->
+<div>
+    <header>
+            <img class="logo" src="./img/Future Photography Logo.png" alt="#" onclick="location.href='./index.html'">
+        
+            <nav>
+
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+
+                    <li><a href="./portfolio.html">PROTFOLIO</a>
+                        <!-- <ul>
+                            <li><a href="./artistic.html">ARTISTIC</a></li>
+                            <li><a href="./wedding.html">WEDDING</a></li>
+                            <li><a href="./aerial.html">AERIAL</a></li>
+                        </ul> -->
+                    </li>
+
+                    <li><a href="./studio.html">STUDIO</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    </header>
+</div>
+

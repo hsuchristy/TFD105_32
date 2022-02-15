@@ -68,7 +68,10 @@ h3{
     height: 580px;
     padding:50px;
     margin-bottom: 100px;
-    
+}
+
+input:focus{
+    outline: none;
 }
 
 h4{

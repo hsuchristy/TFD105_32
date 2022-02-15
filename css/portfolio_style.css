@@ -30,8 +30,15 @@ section{
     height: 315px;
     background-image: url(../img/p1.png);
     text-shadow: 0.1em 0.1em 0.05em #333;
-
+    cursor: pointer;
+    transform:scale(1,1);
+    transition: 1s;
 }
+
+.artistic:hover{
+    transform:scale(1.05,1.05);
+}
+
 
 .wedding{
     margin: 35px;
@@ -39,7 +46,14 @@ section{
     width: 315px;
     height: 315px;
     background-image: url(../img/p2.png);
-    text-shadow: 0.1em 0.1em 0.05em #333
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    cursor: pointer;
+    transform:scale(1,1);
+    transition: 1s;
+}
+
+.wedding:hover{
+    transform:scale(1.05,1.05);
 }
 
 .aerial{
@@ -48,7 +62,14 @@ section{
     width: 315px;
     height: 315px;
     background-image: url(../img/p3.png);
-    text-shadow: 0.1em 0.1em 0.05em #333
+    text-shadow: 0.1em 0.1em 0.05em #333;
+    cursor: pointer;
+    transform:scale(1,1);
+    transition: 1s;
+}
+
+.aerial:hover{
+    transform:scale(1.05,1.05);
 }
 
 .in{
