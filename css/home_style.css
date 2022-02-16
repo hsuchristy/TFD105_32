@@ -16,7 +16,12 @@ body{
     margin: 0 auto;
     background-image: url(../img/home/h1.png);
     background-size: cover;
+    /* transition: 2s; */
 }
+
+/* .top:hover, .top:active{
+    background-image: url(../img/home/h2.png);
+} */
 
 /* .Myheader{
     position:absolute;
