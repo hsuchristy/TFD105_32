@@ -75,6 +75,8 @@ a{
 .city{
     /* border: #fff 1px solid; */
     margin-top: 50px;
+    width: 1200px;
+    margin: 0 auto;
     
 }
 
@@ -111,6 +113,14 @@ a{
     flex-grow: 5;
 }
 
+h3{
+    font-size: 92px;
+    position: relative;
+    top: -100px;
+    left:700px;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
 .sea{
     width: 1200px;
     height: 600px;
@@ -119,24 +129,11 @@ a{
     overflow:hidden
 }
 
-h3{
-    font-size: 92px;
-    position: absolute;
-    top: 1270px;
-    right:50px;
-    text-shadow: 0.1em 0.1em 0.05em #333;
-    /* position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    } */
-}
-
 h4{
     font-size: 92px;
-    position: absolute;
-    top: 1970px;
-    right: 720px;
+    position: relative;
+    top: -110px;
+    left:20px;
     text-shadow: 0.1em 0.1em 0.05em #333;
 }
 

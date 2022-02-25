@@ -81,6 +81,7 @@ article li:hover{
 .icon{
     height: 45px;
     padding-top: 15px;
+         cursor: pointer;
 
 }
 
