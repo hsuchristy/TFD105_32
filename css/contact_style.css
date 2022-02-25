@@ -17,6 +17,8 @@ body{
     height: 380px;
     background-image: url(../img/artistic/at5.png);
     background-size: cover;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 section{
