@@ -7,90 +7,136 @@
   <link rel="stylesheet" href="./css/test.css">
 </head>
 
+<style>
+
+.right{
+    width: 500px;
+    padding-left: 50px;
+}
+
+.content2{
+    width: 600px;
+}
+
+.mySlides2{
+    width: 600px;
+}
+
+
+.row2{
+    width: 600px;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+
+.col2{
+    float: left;
+    cursor: pointer;  
+}
+
+.gallery1{
+    width: 100px;
+}
+</style>
+
 <body>
-    
-    <div class="content">
-        <img class="mySlides" src="./img/studio/1/s11-1.png">
-        <img class="mySlides" src="./img/studio/1/s12-1.png">
-        <img class="mySlides" src="./img/studio/1/s13-1.png">
-        <img class="mySlides" src="./img/studio/1/s14-1.png">
-        <img class="mySlides" src="./img/studio/1/s15-1.png">
-        
+   
+
+   <div class="content2">
+    <img class="mySlides2" src="./img/studio/2/s21-1.png">
+    <img class="mySlides2" src="./img/studio/2/s26-1.png">
+    <img class="mySlides2" src="./img/studio/2/s23-1.png">
+    <img class="mySlides2" src="./img/studio/2/s24-1.jpg">
+
+    <div class="row2">
+      <div class="col2">
+        <img class="gallery2" src="./img/studio/2/s22.png"  onclick="currentDiv(1)">
+      </div>
+      <div class="col2">
+        <img class="gallery2" src="./img/studio/2/s26.png"  onclick="currentDiv(2)">
+      </div>
+      <div class="col2">
+        <img class="gallery2" src="./img/studio/2/s23.png"  onclick="currentDiv(3)">
+      </div>
+      <div class="col2">
+        <img class="gallery2" src="./img/studio/2/s24.png"  onclick="currentDiv(4)">
+      </div>
       
-        <div class="row">
-          <div class="col">
-            <img class="gallery" src="./img/studio/1/s11.png"  onclick="currentDiv(1)">
-          </div>
-          <div class="col">
-            <img class="gallery" src="./img/studio/1/s12.png"  onclick="currentDiv(2)">
-          </div>
-          <div class="col">
-            <img class="gallery" src="./img/studio/1/s13.png"  onclick="currentDiv(3)">
-          </div>
-          <div class="col">
-            <img class="gallery" src="./img/studio/1/s14.png"  onclick="currentDiv(4)">
-          </div>
-          <div class="col">
-            <img class="gallery" src="./img/studio/1/s15.png"  onclick="currentDiv(5)">
-          </div>
-        </div>
-      </div>
+    </div>
+  </div>
 
 
-      <div class="content">
-        <img class="mySlides" src="./img/studio/2/s21-1.png">
-        <img class="mySlides" src="./img/studio/2/s26-1.png">
-        <img class="mySlides" src="./img/studio/2/s23-1.png">
-        <img class="mySlides" src="./img/studio/2/s24-1.jpg">
-
-        <div class="row">
-          <div class="col">
-            <img class="gallery" src="./img/studio/2/s22.png"  onclick="currentDiv(6)">
-          </div>
-          <div class="col">
-            <img class="gallery" src="./img/studio/2/s26.png"  onclick="currentDiv(7)">
-          </div>
-          <div class="col">
-            <img class="gallery" src="./img/studio/2/s23.png"  onclick="currentDiv(8)">
-          </div>
-          <div class="col">
-            <img class="gallery" src="./img/studio/2/s24.png"  onclick="currentDiv(9)">
-          </div>
-          
-        </div>
-      </div>
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides2");
+      var dots = document.getElementsByClassName("gallery");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace("border-red", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += "border-red";
+    }
+    </script>
 
 
 
-      <script>
-        var slideIndex = 1;
-        showDivs(slideIndex);
         
-        function plusDivs(n) {
-          showDivs(slideIndex += n);
-        }
-        
-        function currentDiv(n) {
-          showDivs(slideIndex = n);
-        }
-        
-        function showDivs(n) {
-          var i;
-          var x = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("gallery1");
-          if (n > x.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = x.length} ;
-          for (i = 0; i < x.length; i++) {
-             x[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-             dots[i].className = dots[i].className.replace("border-red", "");
-          }
-          x[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += "border-red";
-        }
-        </script>
-
 </body>
 
 </html>
+
+
+
+            <!-- 註解起來的是舊版 -->
+            <!-- <img class="pic1" src="./img/studio/2/s21.png" alt="#">
+            <div class="spic">
+              <img class="pic2" src="./img/studio/2/s26.png" alt="#">
+              <img class="pic2" src="./img/studio/2/s23.png" alt="#">
+              <img class="pic2" src="./img/studio/2/s24.png" alt="#">
+            </div> -->
+
+                        <!-- 註解起來的是舊版 -->
+            <!-- <img class="pic1" src="./img/studio/1/s11.png" alt="#">
+            <div class="spic">
+            <img class="pic2" src="./img/studio/1/s12.png" alt="#">
+            <img class="pic2" src="./img/studio/1/s13.png" alt="#">
+            <img class="pic2" src="./img/studio/1/s14.png" alt="#">
+            <img class="pic2" src="./img/studio/1/s15.png" alt="#">
+            </div> -->
+
+            <!-- /* 右方圖片欄位  註解起來的是舊資料*/ 
+
+              /* .pic1{
+                  width: 600px;
+              }
+
+              .pic2{
+                  width: 100px;
+                  margin-left: 10px;
+
+              }
+              .spic{
+                  width: 600px;
+                  padding-top: 30px;
+                  display: flex;
+                  justify-content: center; 
+                  
+              }  */ -->

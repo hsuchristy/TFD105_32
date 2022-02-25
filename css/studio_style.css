@@ -108,24 +108,7 @@ h4{
     border: coral 0.5px solid;
 }
 
-/* 右方圖片欄位  註解起來的是舊資料*/ 
 
-/* .pic1{
-    width: 600px;
-}
-
-.pic2{
-    width: 100px;
-    margin-left: 10px;
-
-}
-.spic{
-    width: 600px;
-    padding-top: 30px;
-    display: flex;
-    justify-content: center; 
-    
-}  */
 
 .right{
     width: 500px;
@@ -150,7 +133,9 @@ h4{
 
 .col{
     float: left;
-    cursor: pointer;  
+    cursor: pointer; 
+    
+
 }
 
 .gallery1{
