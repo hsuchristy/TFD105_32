@@ -12,6 +12,10 @@ body{
     font-size: 36px;
 }
 
+.btn_portfolio{
+    color: coral;
+}
+
 section{
         /* border: solid; */
     padding: 100px 30px 100px 30px;
