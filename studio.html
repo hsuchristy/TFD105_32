@@ -5,6 +5,7 @@
   <title>Studio</title>
   <link rel="icon" href="./img/sLogo.png" type="image/x-icon" />
   <link rel="stylesheet" href="./css/studio_style.css">
+  
 
 </head>
 
@@ -43,14 +44,42 @@
 
         <!-- 右側圖片與幻燈片 -->
         <div class="right">
-
-            <img class="pic1" src="./img/studio/1/s11.png" alt="#">
+            <!-- 註解起來的是舊版 -->
+            <!-- <img class="pic1" src="./img/studio/1/s11.png" alt="#">
             <div class="spic">
             <img class="pic2" src="./img/studio/1/s12.png" alt="#">
             <img class="pic2" src="./img/studio/1/s13.png" alt="#">
             <img class="pic2" src="./img/studio/1/s14.png" alt="#">
             <img class="pic2" src="./img/studio/1/s15.png" alt="#">
+            </div> -->
+
+            <div class="content">
+              <img class="mySlides" src="./img/studio/1/s11-1.png">
+              <img class="mySlides" src="./img/studio/1/s12-1.png">
+              <img class="mySlides" src="./img/studio/1/s13-1.png">
+              <img class="mySlides" src="./img/studio/1/s14-1.png">
+              <img class="mySlides" src="./img/studio/1/s15-1.png">
+              
+            
+              <div class="row">
+                <div class="col">
+                  <img class="gallery1" src="./img/studio/1/s11.png"  onclick="currentDiv(1)">
+                </div>
+                <div class="col">
+                  <img class="gallery1" src="./img/studio/1/s12.png"  onclick="currentDiv(2)">
+                </div>
+                <div class="col">
+                  <img class="gallery1" src="./img/studio/1/s13.png"  onclick="currentDiv(3)">
+                </div>
+                <div class="col">
+                  <img class="gallery1" src="./img/studio/1/s14.png"  onclick="currentDiv(4)">
+                </div>
+                <div class="col">
+                  <img class="gallery1" src="./img/studio/1/s15.png"  onclick="currentDiv(5)">
+                </div>
+              </div>
             </div>
+
         </div>
       </section>
 
@@ -84,20 +113,42 @@
 
         <!-- 右側圖片與幻燈片 -->
         <div class="right">
-            <img class="pic1" src="./img/studio/2/s21.png" alt="#">
+
+            <!-- 註解起來的是舊版 -->
+            <!-- <img class="pic1" src="./img/studio/2/s21.png" alt="#">
             <div class="spic">
               <img class="pic2" src="./img/studio/2/s26.png" alt="#">
               <img class="pic2" src="./img/studio/2/s23.png" alt="#">
               <img class="pic2" src="./img/studio/2/s24.png" alt="#">
+            </div> -->
 
+            <div class="content">
+              <img class="mySlides" src="./img/studio/2/s21-1.png">
+              <img class="mySlides" src="./img/studio/2/s26-1.png">
+              <img class="mySlides" src="./img/studio/2/s23-1.png">
+              <img class="mySlides" src="./img/studio/2/s24-1.jpg">
+      
+              <div class="row">
+                <div class="col">
+                  <img class="gallery2" src="./img/studio/2/s22.png"  onclick="currentDiv(1)">
+                </div>
+                <div class="col">
+                  <img class="gallery" src="./img/studio/2/s26.png"  onclick="currentDiv(2)">
+                </div>
+                <div class="col">
+                  <img class="gallery" src="./img/studio/2/s23.png"  onclick="currentDiv(3)">
+                </div>
+                <div class="col2">
+                  <img class="gallery" src="./img/studio/2/s24.png"  onclick="currentDiv(4)">
+                </div>
+                
+              </div>
             </div>
+
+
         </div>
       </section>
-    
-
-
-
-
+  
 
     <div class="Myfooter"></div>
 
@@ -106,6 +157,37 @@
         $(".Myheader").load("header.html");
         $(".Myfooter").load("footer.html");
     </script>
+
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+      
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("gallery");
+        if (n > x.length) {slideIndex = 1}    
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace("border-red", "");
+        }
+        x[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += "border-red";
+      }
+      </script>
+
 
 </body>
 

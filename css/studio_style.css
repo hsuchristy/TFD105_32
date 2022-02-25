@@ -99,15 +99,9 @@ h4{
     border: coral 0.5px solid;
 }
 
-/* 右方圖片欄位 */
+/* 右方圖片欄位  註解起來的是舊資料*/ 
 
-.right{
-    width: 500px;
-    padding-left: 50px;
-    
-}
-
-.pic1{
+/* .pic1{
     width: 600px;
 }
 
@@ -122,4 +116,35 @@ h4{
     display: flex;
     justify-content: center; 
     
+}  */
+
+.right{
+    width: 500px;
+    padding-left: 50px;
 }
+
+.content{
+    width: 600px;
+}
+
+.mySlides{
+    width: 600px;
+}
+
+
+.row{
+    width: 600px;
+    padding: 30px;
+    margin-left: 20px;
+}
+
+
+.col{
+    float: left;
+    cursor: pointer;  
+}
+
+.gallery1{
+    width: 100px;
+}
+

@@ -8,45 +8,34 @@
 body{
     background-color: #2c2c2c;
     font-family: 'Readex Pro', sans-serif;
-    position: relative;
+
 }
 
 .top{
-    height: 600px;
+    width: 1200px;
     margin: 0 auto;
-    background-image: url(../img/home/h1.png);
-    background-size: cover;
-    /* transition: 2s; */
+    position:relative;
 }
 
-/* .top:hover, .top:active{
-    background-image: url(../img/home/h2.png);
-} */
-
-/* .Myheader{
-    position:absolute;
-    top:0px;
-    left:0px;
-    z-index:1;
+.Myheader{
+    position: absolute;
+    width: 1200px;
 }
 
 .banner{
-    position:absolute;
-    top:0px;
-    left:0px;
-    z-index:0;
-}  */
-
-.arrow{
-    width: 1200px;
-    margin: 0 auto;
-    position: relative;
+	max-width: 1200px;
+	height: 600px;
 }
+
+.mySlides{
+	width:100%;
+}
+
 
 .icon{
     padding-left: 460px;
     position: absolute;
-    bottom: -530px;
+    bottom: -10px;
 }
 
 .icon1{
@@ -60,11 +49,18 @@ body{
 }
 
 
+
+
+/* 下方區塊 */
 section{
     margin: 80px auto;
     width: 1200px;
     /* border: aliceblue 1px solid; */
     display: flex;
+}
+
+.left{
+    padding-left: 20px;
 }
 
 
