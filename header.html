@@ -15,6 +15,9 @@ body{
 
 .header{
  width: 100%;
+ position: absolute;
+ z-index: 9999;
+
 
 }
 /*  */
@@ -54,10 +57,10 @@ body{
   
   /* Logo */
   .logo { 
-    width: 300px;
+    width: 240px;
     float: left;
     padding-top: 0px;
-    padding-left: 50px;
+    padding-left: 10px;
     cursor: pointer;
   }
 
@@ -77,7 +80,7 @@ label {
   .ham{
     width: 30px;   
     vertical-align: middle;
-    padding-top: 15px;
+    padding-top: 10px;
     
   }
 
@@ -96,14 +99,15 @@ label {
       padding: 10px 0;
       font-size: 16px;
       color: #fff;
-      
     }
 
     /* 下拉選單效果 */
     .menu {
     max-height: 0;
     overflow: hidden;
-    transition: .5s; /* 動畫秒數 */
+    background-color: rgba(0%,0%,0%,0.7);
+    /* transition: .5s; 動畫秒數 */
+    line-height: 2;
     }
 
     input:checked ~ .menu {
@@ -112,8 +116,7 @@ label {
 
 
 /* 768px 以上的螢幕寬樣式 */
-@media screen and (min-width: 768px) {
-
+@media screen and (min-width: 768px) {  
 
   label {
     display: none;
@@ -122,6 +125,8 @@ label {
     float: right;
     clear: none;
     max-height: 50px;
+    /* border: #fff 1px solid ; */
+    background-color:transparent;
     }
 
     .nav_li {
@@ -143,7 +148,7 @@ label {
 <!-- 選單 導航列 -->
 <div>
 
-    <header class="header">
+    <div class="header">
     <nav class="top_nav">
         <img class="logo" src="./img/Future Photography Logo.png" alt="#" onclick="location.href='./index.html'">
     
