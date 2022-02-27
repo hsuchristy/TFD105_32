@@ -26,16 +26,17 @@
 .row2{
     width: 600px;
     padding: 30px;
-    margin-left: 20px;
+    margin-left: 45px;
 }
 
 
 .col2{
     float: left;
+    padding-left: 10px;
     cursor: pointer;  
 }
 
-.gallery1{
+.gallery2{
     width: 100px;
 }
 </style>
@@ -82,7 +83,7 @@
     function showDivs(n) {
       var i;
       var x = document.getElementsByClassName("mySlides2");
-      var dots = document.getElementsByClassName("gallery");
+      var dots = document.getElementsByClassName("gallery2");
       if (n > x.length) {slideIndex = 1}    
       if (n < 1) {slideIndex = x.length} ;
       for (i = 0; i < x.length; i++) {
