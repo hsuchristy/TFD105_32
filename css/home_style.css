@@ -111,7 +111,7 @@ h2{
     .icon{
         padding-left: 10px;
         position: absolute;
-        left: 100px;
+        left: 130px;
         bottom: -70px;
     }
     
@@ -131,12 +131,13 @@ h2{
     section{      
         width: 500px;  
         margin: 80px auto;
-        border: aliceblue 1px solid;
+        /* border: aliceblue 1px solid; */
         display: flex;
         flex-wrap: wrap;
     }
     
     .left{
+        margin: 0 auto;
         padding-left: 0px;
     }
     
@@ -144,7 +145,7 @@ h2{
     .main{
         height: 300px;
         position: absolute;
-        padding-left: 0px;
+        padding-left: 90px;
         z-index: -1
     
     }
@@ -159,7 +160,10 @@ h2{
         text-align: center;
     }
     
-    
+    .view{
+        padding-left: 95px;
+    }
+
     .buttom{
         font-size: 12px;
         text-decoration: none;
@@ -171,7 +175,6 @@ h2{
         padding: 10px;
         margin-top: 50px;
         text-align: center;
-        
     }
     
     .buttom:hover{
