@@ -97,3 +97,12 @@ h2{
     color: coral;
     border: coral 0.5px solid;
 }
+
+
+/* RWD */
+
+/* @media screen and (max-width: 768px) {
+    .top{
+
+    }
+} */
