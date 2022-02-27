@@ -60,7 +60,7 @@ a:hover{
   }
 
 /* 隱藏 checkbox */
-input {
+.nav_input {
   display: none;
 }
 
@@ -80,7 +80,6 @@ label {
 /* 選單列 */
 .menu {
   clear: both;
- padding-top: 20px;
 }
 
 .nav_li {
@@ -106,8 +105,8 @@ label {
     }
 
 
-
-@media screen and (min-width: 400px) {
+/* 768px 以上的螢幕寬樣式 */
+@media screen and (min-width: 768px) {
 
   label {
     display: none;
@@ -123,7 +122,7 @@ label {
     }
 
       a {
-        padding: 0 15px;  
+        padding: 20px 15px;  
       }
     }
 
@@ -142,7 +141,7 @@ label {
         <img class="logo" src="./img/Future Photography Logo.png" alt="#" onclick="location.href='./index.html'">
     
         <label for="switch"><img class="ham" src="/img/hamburger.png"></label><!--漢堡按鈕圖示-->
-        <input type="checkbox" id="switch"><!--選單開關-->
+        <input class="nav_input" type="checkbox" id="switch"><!--選單開關-->
         <ul class="menu"><!--選單內容-->
             <li class="nav_li"><a class="btn_home" href="./index.html">HOME</a></li>
             <li class="nav_li"><a class="btn_about" href="./about.html">ABOUT</a></li>
