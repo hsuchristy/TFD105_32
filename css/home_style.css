@@ -100,7 +100,83 @@ h2{
 /* RWD */
 
 @media screen and (max-width: 768px){
-    .top{
 
+
+    /* 上方banner */
+
+    .mySlides{
+        width:100%;
+        padding-top:60px
     }
+    .icon{
+        padding-left: 10px;
+        position: absolute;
+        left: 100px;
+        bottom: -70px;
+    }
+    
+    .icon1{
+        width: 50px;
+        margin: 30px;
+    
+    }
+    .icon2{
+        width: 50px;
+        margin: 30px;
+    }
+
+
+
+    /* 下方區塊 */
+    section{      
+        width: 500px;  
+        margin: 80px auto;
+        border: aliceblue 1px solid;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .left{
+        padding-left: 0px;
+    }
+    
+    
+    .main{
+        height: 300px;
+        position: absolute;
+        padding-left: 0px;
+        z-index: -1
+    
+    }
+    
+    h2{
+        color: #fff;
+        font-size: 28px;
+        width: 300px;
+        padding-top: 120px;
+        text-shadow: 0.05em 0.05em 0.05em #333;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    
+    .buttom{
+        font-size: 12px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        color: #fff;
+        border: #fff 0.5px solid;
+        width: 120px;
+        padding: 10px;
+        margin-top: 50px;
+        text-align: center;
+        
+    }
+    
+    .buttom:hover{
+        color: coral;
+        border: coral 0.5px solid;
+    }
+
 }
