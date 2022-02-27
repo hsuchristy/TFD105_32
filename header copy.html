@@ -1,0 +1,80 @@
+<style>
+    @import url('reset.css');
+    @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+
+    *{
+        box-sizing: border-box;
+    }
+
+    header{
+        background-color: rgba(0%,0%,0%,0.7);
+        width: 1200px;
+        margin: 0 auto;
+        font-family: 'Readex Pro', sans-serif;
+        padding: 30px 50px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 80px;
+    }
+
+    .logo{
+        width: 230px;
+        margin-right: auto;
+        cursor: pointer;
+    }
+
+    nav{
+        color: #fff;
+        font-size: 16px;
+    }
+
+    nav li{
+        display: inline-block;
+        width: 150px; 
+    }
+
+    nav li a{
+        text-align: center;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+    }
+
+    nav li a:hover{
+        color: coral;
+    }
+
+</style>
+
+
+<!-- 選單 導航列 -->
+<div>
+    <header>
+            <img class="logo" src="./img/Future Photography Logo.png" alt="#" onclick="location.href='./index.html'">
+        
+
+            <!-- <label for="switch"><img class="ham" src="./img/hamburger.png"></label>
+            <input type="checkbox" id="switch"> -->
+
+            <nav>
+                <ul class="menu">
+                    <li><a class="btn_home" href="./index.html">HOME</a></li>
+                    <li><a class="btn_about" href="./about.html">ABOUT</a></li>
+
+                    <li><a class="btn_portfolio" href="./portfolio.html">PROTFOLIO</a>
+                        <!-- <ul>
+                            <li><a href="./artistic.html">ARTISTIC</a></li>
+                            <li><a href="./wedding.html">WEDDING</a></li>
+                            <li><a href="./aerial.html">AERIAL</a></li>
+                        </ul> -->
+                    </li>
+
+                    <li><a class="btn_studio" href="./studio.html">STUDIO</a></li>
+                    <li><a class="btn_contact" href="./contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+    </header>
+</div>
+
+

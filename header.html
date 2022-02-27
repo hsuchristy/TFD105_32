@@ -2,89 +2,151 @@
     @import url('reset.css');
     @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
 
-    *{
-        box-sizing: border-box;
+*{
+    box-sizing: border-box;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.header{
+ width: 100%;
+}
+
+ul {
+  list-style: none; 
+  padding-right: 10px;
+}
+
+.nav_li{
+    padding-right: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+    color: coral;
+}
+
+
+
+
+/* NavBar */
+.top_nav {
+    background-color: rgba(0%,0%,0%,0.7);
+    height: 75px;
+    padding-top: 10px;
+
+}
+  
+.top_nav::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  /* Logo */
+  .logo { 
+    width: 300px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 50px;
+    cursor: pointer;
+  }
+
+/* 隱藏 checkbox */
+input {
+  display: none;
+}
+
+/* 漢堡按鈕 */
+label {
+  float: right;
+  padding-right: 50px;
+  line-height: 50px;}
+
+  .ham{
+    width: 30px;   
+    vertical-align: middle;
+    padding-top: 15px;
+  }
+
+
+/* 選單列 */
+.menu {
+  clear: both;
+ padding-top: 20px;
+}
+
+.nav_li {
+    text-align: center;
+
     }
 
-    header{
-        background-color: rgba(0%,0%,0%,0.7);
-        width: 1200px;
-        margin: 0 auto;
-        font-family: 'Readex Pro', sans-serif;
-        padding: 30px 50px;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        height: 80px;
+    a {
+      display: block;
+      padding: 10px 0;
+      font-size: 16px;
+      color: #fff;
+      
     }
 
-    .logo{
-        width: 230px;
-        margin-right: auto;
-        cursor: pointer;
+    .menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: .5s; /* 動畫秒數 */
     }
 
-    nav{
-        color: #fff;
-        font-size: 16px;
+    input:checked ~ .menu {
+    max-height: 300px;
     }
 
-    nav li{
-        display: inline-block;
-        width: 150px; 
+
+
+@media screen and (min-width: 768px) {
+  label {
+    display: none;
+  }
+  .menu {
+    float: right;
+    clear: none;
+    max-height: 50px;
     }
 
-    nav li a{
-        text-align: center;
-        color: #fff;
-        display: block;
-        text-decoration: none;
+    .nav_li {
+      display: inline-block;
     }
 
-    nav li a:hover{
-        color: coral;
+      a {
+        padding: 0 15px;  
+      }
+
     }
 
-    /* @media screen and (max-width: 768px) {
-        header{
-        background-color: rgba(0%,0%,0%,0.7);
-        width: 768px;
-        display: flex;
-        justify-content: flex-end;
-        height: 80px;
-        }
 
-        nav{
-        display: none;
-    }
-        
-    } */
 
 </style>
 
 
 <!-- 選單 導航列 -->
 <div>
-    <header>
-            <img class="logo" src="./img/Future Photography Logo.png" alt="#" onclick="location.href='./index.html'">
-        
-            <nav>
 
-                <ul>
-                    <li><a class="btn_home" href="./index.html">HOME</a></li>
-                    <li><a class="btn_about" href="./about.html">ABOUT</a></li>
+    <header class="header">
+    <nav class="top_nav">
+        <img class="logo" src="./img/Future Photography Logo.png" alt="#" onclick="location.href='./index.html'">
+    
+        <label for="switch"><img class="ham" src="/img/hamburger.png"></label><!--漢堡按鈕圖示-->
+        <input type="checkbox" id="switch"><!--選單開關-->
+        <ul class="menu"><!--選單內容-->
+            <li class="nav_li"><a class="btn_home" href="./index.html">HOME</a></li>
+            <li class="nav_li"><a class="btn_about" href="./about.html">ABOUT</a></li>
+            <li class="nav_li"><a class="btn_portfolio" href="./portfolio.html">PROTFOLIO</a>
+            <li class="nav_li"><a class="btn_studio" href="./studio.html">STUDIO</a></li>
+            <li class="nav_li"><a class="btn_contact" href="./contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
 
-                    <li><a class="btn_portfolio" href="./portfolio.html">PROTFOLIO</a>
-                        <!-- <ul>
-                            <li><a href="./artistic.html">ARTISTIC</a></li>
-                            <li><a href="./wedding.html">WEDDING</a></li>
-                            <li><a href="./aerial.html">AERIAL</a></li>
-                        </ul> -->
-                    </li>
-
-                    <li><a class="btn_studio" href="./studio.html">STUDIO</a></li>
-                    <li><a class="btn_contact" href="./contact.html">CONTACT</a></li>
-                </ul>
-            </nav>
     </header>
 </div>
+
+

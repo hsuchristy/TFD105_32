@@ -87,3 +87,12 @@ section{
     color: coral;
 
 }
+/* 
+@media screen and (max-width: 768px) {
+
+    section{
+        width: 768px;
+        
+    }
+
+}  */
