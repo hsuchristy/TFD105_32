@@ -3,6 +3,7 @@
 
 *{
     box-sizing: border-box;
+
 }
 
 body{
@@ -10,16 +11,21 @@ body{
     font-family: 'Readex Pro', sans-serif;
     color: #fff;
     font-weight: 700;
+    
 }
 
 /* 共用 */
 
+.container{
+/* width: 1200px;
+margin: 0 auto; */
 
+}
 
 
 article{
     margin: 0 auto;
-    width: 1200px;
+    width: 100%;
     border-bottom: #fff 0.5px solid;
     padding: 100px 0px 0px 100px;
 }
@@ -50,14 +56,15 @@ article li:hover{
 
 
 /* 第一區塊 */
+.about{
+    display: flex;
+}
 
 .pic1{
     width: 490px;
 }
 
-.about{
-    display: flex;
-}
+
 
 .word1{
     margin: 50px;
@@ -82,7 +89,7 @@ article li:hover{
 .icon{
     height: 45px;
     padding-top: 15px;
-         cursor: pointer;
+    cursor: pointer;
 
 }
 
@@ -152,3 +159,144 @@ article li:hover{
     text-align: right;
 }
 
+@media screen and (max-width: 768px){
+
+
+
+/* 第一區塊 */
+
+.about{
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    border-bottom: #fff 0.5px solid;
+    padding: 0;
+    padding-top: 100px;
+}
+
+
+.pic1{
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+
+.word1{
+    margin: 50px auto;
+
+}
+
+
+.word1 h2{
+    font-size: 30px;
+    width: 320px;
+    color: coral;
+}
+
+.word1 p {
+    font-size: 16px;
+    width: 400px;
+    line-height: 1.6;
+    font-weight: 200;
+}
+
+.icon{
+    height: 30px;
+    padding-top: 0px;
+}
+
+
+/* 第二區塊 */
+.MAE{
+    flex-direction: column-reverse;
+    padding: 0 0 50px 0;
+}
+
+.word2{
+    padding: 0px;
+}
+
+
+.pic2{
+    padding: 0;
+}
+
+
+.MAE h3{
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.MAE h4{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.MAE li{
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* 第三區塊 */
+
+.LANE{
+    flex-direction: column;
+    padding: 0 0 50px 0;
+}
+
+.pic3{
+    padding: 0;
+}
+
+.LANE h4{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.LANE h3{
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.LANE li{
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+/* 第四區塊 */
+
+.WAYNE{
+    flex-direction: column-reverse;
+    padding: 0 0 50px 0;
+}
+
+
+.pic4{
+    padding: 0;
+}
+
+.WAYNE h4{
+    font-size: 55px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.WAYNE h3{
+    font-size: 28px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.WAYNE li{
+        text-align: center;
+        padding-top: 10px;
+    }
+}
+
+
+    
