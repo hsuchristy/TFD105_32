@@ -230,7 +230,7 @@ h4{
     /* border: #fff 1px solid; */
     margin-top: 50px;
     padding-top: 50px;
-    width: 500px;
+    width: 350px;
     margin: 0 auto;
     
 }
@@ -244,20 +244,20 @@ h4{
 h3{
     font-size: 42px;
     position: relative;
-    top: -180px;
-    left:150px;
+    top: -160px;
+    left:70px;
     text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .fpic{
-  width: 500px;
+  width: 350px;
   height: 300px;
   display: flex;
   margin: 0 auto;
 }
 
 .sea{
-  width: 500px;
+  width: 350px;
   height: 300px;
   /* border: #fff 1px solid; */
   margin: 0 auto;
@@ -268,13 +268,13 @@ h3{
 h4{
   font-size: 42px;
   position: relative;
-  top: -130px;
-  left:150px;
+  top: -80px;
+  left:50px;
   text-shadow: 0.1em 0.1em 0.05em #333;
 }
 
 .spic{ 
-  width: 500px;
+  width: 350px;
   transform:scale(2,2);transition: all 1s ease-out;
 
 }

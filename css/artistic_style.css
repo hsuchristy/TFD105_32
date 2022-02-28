@@ -241,7 +241,7 @@ li img{
 
 .allpic{
   padding-top: 100px;
-  width: 500px;
+  width: 350px;
   height: 600px;
   margin: 0 auto;
 
@@ -249,23 +249,22 @@ li img{
 
 .group{
   margin: 0 auto;
-  width: 500px;
   display: flex;
   flex-wrap: wrap;
-  flex-flow: colum wrap
+  /* flex-flow: column wrap; */
 }
 
 .wpic{
-  width: 125px;
-  height: 125px;
+  width: 75px;
+  height: 75px;
   text-align: center;
-  padding-top: 60px;
-  font-size: 12px;
+  padding-top: 25px;
+  font-size: 10px;
 
 }
 
 .gpic{
-  width: 125px;
-  height: 125px;
+  width: 75px;
+  height: 75px;
 }
 }

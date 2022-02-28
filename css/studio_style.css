@@ -174,7 +174,7 @@ img{
     }
     section{
         margin: 0 auto;
-        width: 400px;
+        width: 350px;
         /* border: aliceblue 1px solid; */
         flex-direction: column-reverse;
         margin-bottom:50px;
