@@ -104,19 +104,20 @@ h2{
 
     /* 上方banner */
     .banner{
-        height: 500px;
+        /* height: 500px; */
         overflow: hidden;
     }
 
     .mySlides{
-        width:900px;
+
+        /* width:900px; */
         padding-top:60px
     }
     .icon{
         padding-left: 10px;
         position: absolute;
         left: 130px;
-        bottom: 0px;
+        bottom: -20px;
     }
     
     .icon1{
