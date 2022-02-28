@@ -13,7 +13,7 @@ body{
 
 .wrap{
     /* max-width:  1200px; */
-        margin: 0 auto;
+        /* margin: 0 auto; */
 
 }
 
@@ -116,7 +116,7 @@ h2{
     .icon{
         padding-left: 10px;
         position: absolute;
-        left: 130px;
+        left: 120px;
         bottom: -20px;
     }
     
@@ -135,7 +135,7 @@ h2{
     /* 下方區塊 */
     section{      
         width: 500px;  
-        margin: 100px auto;
+        /* margin: 100px auto; */
         /* border: aliceblue 1px solid; */
 
     }
