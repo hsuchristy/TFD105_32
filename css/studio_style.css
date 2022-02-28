@@ -166,3 +166,75 @@ img{
 .gallery2{
     width: 100px;
 }
+
+@media screen and (max-width: 768px){
+    
+    section{
+        margin: 0 auto;
+        width: 400px;
+        border: aliceblue 1px solid;
+        flex-direction: column-reverse;
+        margin-bottom:30px;
+    }
+
+    .S1{
+        padding: 0px;
+        padding-top: 100px;
+    }
+    
+    .S2{
+        padding: 0px;
+    }
+
+    .left{
+        margin: 0 auto;
+        width: 320px;
+        padding-right: 0px;
+    }
+
+    .book{
+        float:none;
+        margin:20px auto;
+    }
+    
+    .right{
+        width: 350px;
+        padding-left: 0px;
+        margin: 0 auto;
+    }
+
+    .content{
+        width: 350px;
+    }
+    
+    .mySlides{
+        width: 350px;
+    }
+    
+    
+    .row{
+        width: 350px;
+        padding: 30px;
+        margin-left: 10px;
+    }
+
+    img{
+        width: 50px;
+    }
+
+    .content2{
+        width: 350px;
+    }
+    
+    .mySlides2{
+        width: 350px;
+    }
+    
+    
+    .row2{
+        width: 350px;
+        padding: 30px;
+        margin-left: 20px;
+    }
+
+}
