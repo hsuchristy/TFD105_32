@@ -219,7 +219,9 @@ article li:hover{
 
 
 .pic2{
+    width: 400px;
     padding: 0;
+    margin: 0 auto;
 }
 
 
@@ -247,7 +249,9 @@ article li:hover{
 }
 
 .pic3{
+    width: 400px;
     padding: 0;
+    margin: 0 auto;
 }
 
 .LANE h4{
@@ -277,11 +281,13 @@ article li:hover{
 
 
 .pic4{
+    width: 400px;
     padding: 0;
+    margin: 0 auto;
 }
 
 .WAYNE h4{
-    font-size: 55px;
+    font-size: 46px;
     padding-top: 20px;
     text-align: center;
 }
