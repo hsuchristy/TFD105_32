@@ -148,11 +148,9 @@ input {
 
 
 .pic1{
-    height: 600px;
-    /* width: 1200px; */
+    margin: 0 auto;
     padding-top: 50px;
-    text-align:center
-
+    text-align:center;
 }
 
 .img1{
@@ -226,4 +224,39 @@ h3:hover{
 
 .gpic3:hover{
     flex-grow: 1.5;
+}
+
+@media screen and (max-width: 768px){
+
+.warp{
+  width: 500px;
+    /* border: #fff 1px solid; */
+}
+.pic1{
+  
+    margin: 0 auto;
+    padding-top: 50px;
+    text-align:center;
+}
+
+img{
+  width: 500px;
+}
+
+.group{
+  /* border: #fff 1px solid; */
+  padding-bottom: 50px;
+
+}
+
+.gpic{
+  width: 500px;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
+
+
+}
+
+
 }
