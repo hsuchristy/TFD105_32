@@ -16,7 +16,6 @@ body{
     height: 380px;
     background-image: url(../img/artistic/at4.png);
     background-size: cover;
-
     margin: 0 auto;
 }
 
@@ -55,7 +54,7 @@ h2{
     }
 
     h2{
-        padding: 60px;
+        padding: 30px;
         font-size: 18px;
     }
 
