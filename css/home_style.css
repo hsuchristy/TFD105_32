@@ -134,8 +134,8 @@ h2{
 
     /* 下方區塊 */
     section{      
-        width: 500px;  
-        /* border: aliceblue 1px solid; */
+        width: 500px;
+        border: aliceblue 1px solid;
         width: 100%;
         background-image: url(../img/home/h2.png);
 
