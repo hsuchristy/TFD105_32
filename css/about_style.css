@@ -180,20 +180,20 @@ article li:hover{
 .word1{
     margin: 50px auto;
 
+
 }
 
 
 .word1 h2{
     font-size: 30px;
     width: 320px;
-    color: coral;
 }
 
 .word1 p {
     font-size: 16px;
-    width: 400px;
-    line-height: 1.6;
-    font-weight: 200;
+    letter-spacing:1px;
+    width: 380px;
+
 }
 
 .icon{
@@ -221,7 +221,7 @@ article li:hover{
 
 
 .MAE h3{
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 10px;
     text-align: center;
 }
@@ -255,7 +255,7 @@ article li:hover{
 }
 
 .LANE h3{
-    font-size: 28px;
+    font-size: 24px;
     margin-top: 10px;
     text-align: center;
 
