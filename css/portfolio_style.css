@@ -98,7 +98,25 @@ section{
     flex-direction: column;
     padding-top: 100px;
     margin-left: 0px;
+    margin: 0 auto;
+}
+
+.artistic{
+    margin: 0px;
+    margin-bottom: 35px;
 }
 
 
+
+.wedding{
+    margin: 0px;
+    margin-bottom: 35px;
+
+}
+
+
+
+.aerial{
+    margin: 0px;
+}
 }
