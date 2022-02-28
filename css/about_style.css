@@ -24,7 +24,7 @@ article{
 }
 
 article li{
-    font-size: 24px;
+    font-size: 20px;
     text-align: right;
     line-height: 1.6;
     letter-spacing:1px;
@@ -168,7 +168,7 @@ article li:hover{
 
 
 .pic1{
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
 }
 
@@ -176,24 +176,28 @@ article li:hover{
 
 .word1{
     margin: 50px auto;
-
+    padding-left: 20px;
 
 }
 
 
 .word1 h2{
+    padding-bottom: 20px;
     font-size: 30px;
     width: 320px;
 }
 
 .word1 p {
+    padding-bottom: 20px;
+
     font-size: 16px;
     letter-spacing:1px;
-    width: 380px;
+    width: 300px;
 
 }
 
 .icon{
+    
     height: 30px;
     padding-top: 0px;
 }
@@ -211,7 +215,7 @@ article li:hover{
 
 
 .pic2{
-    width: 400px;
+    width: 300px;
     padding: 0;
     margin: 0 auto;
 }
@@ -224,7 +228,7 @@ article li:hover{
 }
 
 .MAE h4{
-    font-size: 48px;
+    font-size: 40px;
     padding-top: 20px;
     text-align: center;
 }
@@ -242,13 +246,13 @@ article li:hover{
 }
 
 .pic3{
-    width: 400px;
+    width: 300px;
     padding: 0;
     margin: 0 auto;
 }
 
 .LANE h4{
-    font-size: 48px;
+    font-size: 40px;
     padding-top: 20px;
     text-align: center;
 }
@@ -275,13 +279,13 @@ article li:hover{
 
 
 .pic4{
-    width: 400px;
+    width: 300px;
     padding: 0;
     margin: 0 auto;
 }
 
 .WAYNE h4{
-    font-size: 40px;
+    font-size: 36px;
     padding-top: 20px;
     text-align: center;
 }

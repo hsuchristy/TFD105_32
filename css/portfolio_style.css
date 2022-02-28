@@ -96,9 +96,13 @@ section{
 section{
     width: 350px;
     flex-direction: column;
-    padding-top: 100px;
+
     margin-left: 0px;
     margin: 0 auto;
+    padding: 0;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    padding-left: 10px;
 }
 
 .artistic{

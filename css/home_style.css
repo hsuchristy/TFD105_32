@@ -51,8 +51,8 @@ body{
 /* 下方區塊 */
 section{
     margin: 80px auto;
-    max-width: 1200px;
-    /* border: aliceblue 1px solid; */
+    width: 100%;
+    border: aliceblue 1px solid;
     display: flex;
 }
 
@@ -110,7 +110,7 @@ h2{
 
     .mySlides{
 
-        /* width:900px; */
+
         padding-top:60px
     }
     .icon{
@@ -135,8 +135,9 @@ h2{
     /* 下方區塊 */
     section{      
         width: 500px;  
-        /* margin: 100px auto; */
         /* border: aliceblue 1px solid; */
+        width: 100%;
+        background-image: url(../img/home/h2.png);
 
     }
     
@@ -147,10 +148,7 @@ h2{
     
     
     .main{
-        height: 300px;
-        position: absolute;
-        padding-left: 90px;
-        z-index: -1
+        display: none;
     
     }
     
