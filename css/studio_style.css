@@ -20,11 +20,11 @@ a{
 
 
 .S1{
-    padding: 100px 100px 0px 100px;
+    padding: 100px ;
 }
 
 .S2{
-    padding: 100px;
+    padding: 100px 100px 0px 100px;
 }
 
 section{
@@ -178,12 +178,13 @@ img{
     }
 
     .S1{
+
         padding: 0px;
-        padding-top: 100px;
     }
     
     .S2{
         padding: 0px;
+        padding-top: 100px;
     }
 
     .left{
