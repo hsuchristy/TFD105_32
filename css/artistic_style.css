@@ -214,6 +214,7 @@ li img{
 @media screen and (max-width: 768px){
 
 
+
   .pic1{
     width: 350px;
     margin: 0 auto;
@@ -241,7 +242,7 @@ li img{
 .allpic{
   padding-top: 100px;
   width: 500px;
-  height: 5000px;
+  height: 600px;
   margin: 0 auto;
 
 }
