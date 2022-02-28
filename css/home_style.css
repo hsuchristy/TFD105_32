@@ -51,7 +51,7 @@ body{
 /* 下方區塊 */
 section{
     margin: 80px auto;
-    width: 1200px;
+    max-width: 1200px;
     /* border: aliceblue 1px solid; */
     display: flex;
 }
@@ -103,16 +103,20 @@ h2{
 
 
     /* 上方banner */
+    .banner{
+        height: 500px;
+        overflow: hidden;
+    }
 
     .mySlides{
-        width:100%;
+        width:900px;
         padding-top:60px
     }
     .icon{
         padding-left: 10px;
         position: absolute;
         left: 130px;
-        bottom: -70px;
+        bottom: 0px;
     }
     
     .icon1{
@@ -130,10 +134,9 @@ h2{
     /* 下方區塊 */
     section{      
         width: 500px;  
-        margin: 80px auto;
+        margin: 100px auto;
         /* border: aliceblue 1px solid; */
-        display: flex;
-        flex-wrap: wrap;
+
     }
     
     .left{
