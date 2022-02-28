@@ -153,18 +153,15 @@ h4{
     }
     
     h3{
-        display: block;
         font-size: 12px;
         padding-top: 10px;
         text-align: center;
     }
     
     .info{
-        display: block;
         text-align: center;
         font-size: 14px;
         padding-top: 20px;
-        line-height: 3;
 
     }
 
@@ -178,8 +175,9 @@ h4{
     /*  */
 
     .map{
-            height: 425px;
+            height: 360px;
             padding-left: 0px;
+            padding-top: 20px;
         }
     
 
