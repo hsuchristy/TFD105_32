@@ -163,7 +163,7 @@ img{
     cursor: pointer;  
 }
 
-.gallery2{
+.gallery{
     width: 100px;
 }
 
@@ -172,9 +172,9 @@ img{
     section{
         margin: 0 auto;
         width: 400px;
-        border: aliceblue 1px solid;
+        /* border: aliceblue 1px solid; */
         flex-direction: column-reverse;
-        margin-bottom:30px;
+        margin-bottom:50px;
     }
 
     .S1{
@@ -190,6 +190,16 @@ img{
         margin: 0 auto;
         width: 320px;
         padding-right: 0px;
+    }
+
+    h2{
+        font-size: 24px;
+        text-align: center; 
+    
+    }
+    
+    h3{
+        text-align: center;
     }
 
     .book{
