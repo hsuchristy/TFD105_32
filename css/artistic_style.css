@@ -244,6 +244,7 @@ li img{
   width: 350px;
   height: 400px;
   margin: 0 auto;
+  /* border: red 1px solid; */
 
 }
 
@@ -255,8 +256,8 @@ li img{
 }
 
 .wpic{
-  width: 75px;
-  height: 75px;
+  width: 87px;
+  height: 87px;
   text-align: center;
   padding-top: 25px;
   font-size: 10px;
@@ -264,7 +265,7 @@ li img{
 }
 
 .gpic{
-  width: 75px;
-  height: 75px;
+  width: 87px;
+  height: 87px;
 }
 }
