@@ -172,12 +172,12 @@ input {
 }
 
 .city .fpic1{
-    background-image: url(../img/aerial/al7.png);
+    background-image: url(../img/aerial/al7-1.jpg);
     flex-grow: 1;
 
 }
 .city .fpic2{
-    background-image: url(../img/aerial/al3.png);
+    background-image: url(../img/aerial/al3-1.jpg);
     flex-grow: 1;
 }
 
