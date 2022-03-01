@@ -53,6 +53,7 @@ section{
     margin: 80px auto;
     width: 100%;
     /* border: aliceblue 1px solid; */
+    border: none;
     display: flex;
 }
 
