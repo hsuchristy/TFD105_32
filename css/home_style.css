@@ -109,14 +109,12 @@ h2{
     }
 
     .mySlides{
-
-
         padding-top:60px
     }
     .icon{
         padding-left: 10px;
         position: absolute;
-        left: 120px;
+        left: 80px;
         bottom: -20px;
     }
     
@@ -135,7 +133,7 @@ h2{
     /* 下方區塊 */
     section{      
         width: 500px;
-        /* border: aliceblue 1px solid; */
+        border: none;
         width: 100%;
         background-image: url(../img/home/h2.png);
 
