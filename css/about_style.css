@@ -14,11 +14,13 @@ body{
     
 }
 
+
 /* 共用 */
 
 article{
+
+    width: 1200px;
     margin: 0 auto;
-    width: 100%;
     border-bottom: #fff 0.5px solid;
     padding: 100px 0px 0px 100px;
 }
