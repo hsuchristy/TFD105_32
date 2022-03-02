@@ -6,7 +6,7 @@
   <title>Studio</title>
   <link rel="icon" href="./img/sLogo.png" type="image/x-icon" />
   <link rel="stylesheet" href="./css/studio_style.css">
-  
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -17,6 +17,10 @@
 
       <!-- 第二區塊 -->
       <!-- 左側文字敘述 -->
+<div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+
     <section class="S2">
         <div class="left">
           <h2>Underwater Room</h2>
@@ -73,9 +77,13 @@
 
         </div>
       </section>
-  
+    </div>
        <!-- 第一區塊 -->
     <!-- 左側文字敘述 -->
+    <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+
     <section class="S1">
       <div class="left">
         <h2>Classic Room</h2>
@@ -134,7 +142,7 @@
 
       </div>
     </section>
-
+  </div>
 
     <div class="Myfooter"></div>
 
@@ -196,6 +204,11 @@
           dots[slideIndex-1].className += "border-red";
         }
         </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 

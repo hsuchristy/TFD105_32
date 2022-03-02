@@ -6,6 +6,7 @@
   <title>Contact</title>
   <link rel="icon" href="./img/sLogo.png" type="image/x-icon" />
   <link rel="stylesheet" href="./css/contact_style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -14,10 +15,9 @@
 <body>
 
   <div class="Myheader"></div>
-  <div class="top">
+  <div class="top"></div>
 
-  </div>
-
+  <div data-aos="fade-right">
     <!-- 資訊與地圖 -->
     <section>
       <div class="left">
@@ -35,9 +35,10 @@
       </div>
         <img class="map" src="./img/map.png" alt="#">
     </section>
-
+  </div>
 
     <!-- 填寫欄位 -->
+    <div data-aos="fade-right">
     <div class="input">
         <h4>Contact / Booking</h4>
 
@@ -54,7 +55,7 @@
          <!-- <input class="send" type="submit" value="Send" href="./contact2.html"> -->
          <input type="button" name="Submit" value="Send" class="send" onclick="location.href='./contact2.html'" />
     </div>
-
+  </div>
 
 
     <div class="Myfooter"></div>
@@ -64,6 +65,11 @@
         $(".Myheader").load("header.html");
         $(".Myfooter").load("footer.html");
     </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 
 </body>
 

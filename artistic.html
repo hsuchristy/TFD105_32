@@ -6,6 +6,7 @@
   <title>Artistic</title>
   <link rel="icon" href="./img/sLogo.png" type="image/x-icon" />
   <link rel="stylesheet" href="./css/artistic_style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 
@@ -38,13 +39,15 @@
 
 
     <!-- 大圖文字區塊 -->
+
+    <div data-aos="fade-up">
     <div class="pic1">
       <img class="img1" src="./img/artistic/at6.png" alt="">  
       <div class="word">
       <p class="word">When someone looks into your eyes they should see something alive within you. Having a dream is like owning a lighthouse which directs you on your journey.</p>
     </div>  
     </div>
-
+  </div>
 
     <!-- 9宮格 -->
     <div class="allpic">
@@ -74,7 +77,11 @@
         $(".Myheader").load("header.html");
         $(".Myfooter").load("footer.html");
     </script>
-
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
